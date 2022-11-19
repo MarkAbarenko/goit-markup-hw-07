@@ -1,0 +1,25 @@
+@import './utils/variables';
+@import './utils/hidden';
+
+@import './base/common.scss';
+@import './base/reset';
+@import './base/icon';
+@import './base/logo';
+
+@import './components/title'; 
+@import './components/conteiner';
+@import './components/modal';
+@import './components/button';
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/features';
+@import './layouts/examples';
+@import './layouts/team';
+@import './layouts/customers';
+@import './layouts/footer';
+@import './layouts/portfolio';
+@import './layouts/subscription';
+@import './layouts/authorization-nav';
+@import './layouts/item'
+

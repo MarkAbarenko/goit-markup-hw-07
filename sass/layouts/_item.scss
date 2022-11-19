@@ -1,0 +1,13 @@
+.item {
+    position: relative;
+}
+
+.item-mail .link:focus,
+.item-mail .link:hover {
+    color: var(--accent-color);
+}
+
+.item-tell .link:hover,
+.item-tell .link:focus {
+    color: var(--accent-color);
+}
