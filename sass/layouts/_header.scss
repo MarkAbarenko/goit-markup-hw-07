@@ -3,7 +3,7 @@
     border-bottom: 1px solid var(--border);
 }
 
-.header-nav {
+.navigation {
     display: flex;
     align-items: center;
 }
@@ -12,7 +12,7 @@
     list-style: none;
 }
 
-.site-nav .link {
+.menu .link {
     display: inline-block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -26,11 +26,11 @@
         color: var(--fone-bt-color);
     }
 }
-.site-nav.list {
+.menu.list {
         display: flex;
         gap: 50px;
     }
-.site-nav .link {
+.menu .link {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -50,7 +50,7 @@
     border-radius: 2px;
 }
 
-.dis-flex {
+.header__conteiner {
     display: flex;
     align-items: center;
 }
