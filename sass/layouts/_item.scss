@@ -2,12 +2,12 @@
     position: relative;
 }
 
-.item-mail .link:focus,
-.item-mail .link:hover {
+.item-mail .conntacs__link:focus,
+.item-mail .conntacs__link:hover {
     color: var(--accent-color);
 }
 
-.item-tell .link:hover,
-.item-tell .link:focus {
+.item-tell .conntacs__link:hover,
+.item-tell .conntacs__link:focus {
     color: var(--accent-color);
 }

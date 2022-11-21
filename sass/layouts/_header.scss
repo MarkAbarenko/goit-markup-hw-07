@@ -3,7 +3,7 @@
     border-bottom: 1px solid var(--border);
 }
 
-.navigation {
+.header__navigation {
     display: flex;
     align-items: center;
 }
@@ -12,7 +12,7 @@
     list-style: none;
 }
 
-.menu__item .link {
+.menu__item .menu__link {
     display: inline-block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -27,11 +27,11 @@
     }
 }
 
-.menu.list {
+.header__menu.list {
         display: flex;
         gap: 50px;
     }
-.menu .link {
+.header__menu .menu__link {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -40,7 +40,7 @@
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link.current::after {
+.menu__link.current::after {
     position: absolute;
     content: "";
     height: 4px;
