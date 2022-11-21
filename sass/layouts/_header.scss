@@ -12,20 +12,21 @@
     list-style: none;
 }
 
-.menu .link {
+.menu__item .link {
     display: inline-block;
     padding-top: 32px;
     padding-bottom: 32px;
 
-    & .link:focus,
-    & .link:hover {
+    &:focus,
+    &:hover {
         color: var(--accent-color);
     }
 
-    & .link.current {
+    &.current {
         color: var(--fone-bt-color);
     }
 }
+
 .menu.list {
         display: flex;
         gap: 50px;
